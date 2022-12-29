@@ -21,9 +21,9 @@ public class OrderController {
     public String saveOrder(Order order){
         int r = orderMapper.insert(order);
         if(r > 0){
-            return "插入成功";
+            return "插入成功！！";
         }else{
-            return "插入失败";
+            return "插入失败！！";
         }
     }
 
